@@ -495,7 +495,7 @@ PSIPHON_SOCKS=""
 MTU=""
 # Маршрутизировать IPv6-адреса из списка (0/1)
 ENABLE_IPV6=0
-# Регион выхода для install-psiphon, например "DE" или "DE NL FR"
+# Регион выхода для install-psiphon, например "DE" или пул "NL,DE,SE"
 PSIPHON_REGION=""
 EOF
   chmod 600 "$CONF_FILE"
